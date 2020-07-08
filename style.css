@@ -8,14 +8,14 @@ body{
 h1{
     font-weight: bolder;
 }
-#home{
-    
+.home{
     width: 100%;
-    height: 550px;
+    
     left: 0px;
     top: 0px;
     background-color: #F0FFF0;  
 }
+
 .click-me{
     background-color: #21B573;
     color: white;
@@ -67,7 +67,7 @@ span{
     width: 18%;
     padding-bottom: 15px;
 }
-.course, .testimonial h1{
+.courses, .testimonial h1{
     text-align: center;
 }
 .testimonial{
@@ -79,19 +79,35 @@ small{
 .testimonial div img{
     width: 200px;
 }
-.footer{
-    color: lightgray;
-    background-color: #282531;
-    width: 100%;
-    height: 370px;
+
+/*------------------------form-----------------------------*/
+
+form{
+    width: 200px;
 }
-.footer .container .row div{
-    margin-top: 40px;
+#form h3{
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
 }
-.footer-list{
-    list-style: none;
-    padding-left: 0;
+
+/*------------------------carousel-----------------------------*/
+#educationalist{
+    color: peru;
+    text-align: center;
+    font-weight: bolder;
 }
+.slider{
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+
+/*------------------------footer-----------------------------*/
+
 .list-header{
     padding-bottom: 10px;
     font-weight: bold;
@@ -100,25 +116,20 @@ small{
 footer{
     text-align: center;
 }
-
-@media (max-width: 900px){
-
+.footer{
+    color: lightgray;
+    background-color: #282531;
+    width: 100%;
+}
+.footer .container .row div{
+    margin-top: 40px;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0;
 }
 
 
 /*
-
-<img src="images/Photos/people.png" class="img-fluid footer-img" alt="">
-                    <small>60 seats</small>
-
-    <small class="">Start April 20, 2020</small>                
-
-.f-course{
-    top: 30px;
-
-#testimonial2{
-    padding: 0 100px;
-}
-padding: 20px 20px 30px 20px;
 
 */
