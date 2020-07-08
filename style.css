@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    margin-bottom: 100px;
+}
+h1{
+    font-weight: bolder;
+}
+#home{
+    
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 0px;
+    background-color: #F0FFF0;  
+}
+.click-me{
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+.navbar-toggler{
+    outline: none;
+}
+.illustration{
+    width: 100%;
+}
+span{
+    color: #21B573;
+}
+.category img{
+    width: 60px;
+}
+.category{
+    width: 240px;
+    height: 220px;
+    background-color: #f0fffa;
+    padding: 25px 20px 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.category:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card img{
+    padding: 15px 17px 0px 17px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: orange;
+    padding: 10px 10px;
+}
+.footer-img img{
+    height: 18%;
+    width: 18%;
+    padding-bottom: 15px;
+}
+.course, .testimonial h1{
+    text-align: center;
+}
+.testimonial{
+    background-color: white;
+}
+small{
+    font-size: 12px;
+}
+.testimonial div img{
+    width: 200px;
+}
+.footer{
+    color: lightgray;
+    background-color: #282531;
+    width: 100%;
+    height: 370px;
+}
+.footer .container .row div{
+    margin-top: 40px;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+.list-header{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white !important;
+}
+footer{
+    text-align: center;
+}
+
+@media (max-width: 900px){
+
+}
+
+
+/*
+
+<img src="images/Photos/people.png" class="img-fluid footer-img" alt="">
+                    <small>60 seats</small>
+
+    <small class="">Start April 20, 2020</small>                
+
+.f-course{
+    top: 30px;
+
+#testimonial2{
+    padding: 0 100px;
+}
+padding: 20px 20px 30px 20px;
+
+*/
